@@ -1,0 +1,18 @@
+
+<p>
+  <strong>Price:</strong>
+  <%= @publication.price %>
+</p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @publication.titulo %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @publication.descripcion %>
+</p>
+
+<%= link_to 'Editar', edit_publication_path(@publication) %> |
+<%= link_to 'Volver', publications_path %>
